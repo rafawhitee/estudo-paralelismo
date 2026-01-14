@@ -15,6 +15,8 @@ public class EstudoSynchronized {
 		new Thread(hunt5b, "Thread B").start();
 		sleep(100); // pequena diferença de tempo
 		new Thread(hunt3, "Thread C").start();
+		
+		System.out.println("\n\n ########## Fim EstudoSynchronized ##########");
 	}
 
 	public static void processarHuntSynchronizedByHunt(int huntId, int tempoMs) {

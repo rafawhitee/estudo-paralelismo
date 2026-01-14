@@ -1,20 +1,27 @@
+import utils.Singleton;
+
 public class EstudoVolatile {
 
 	public static void main(String[] args) throws InterruptedException {
+		System.out.println("-----");
 		System.out.println("Começo do Caso 001 \n");
 		caso001();
 		System.out.println("\nFim do Caso 001");
 		System.out.println("----- \n");
 		
+		System.out.println("-----");
 		System.out.println("Começo do Caso 002 \n");
 		caso002();
 		System.out.println("\nFim do Caso 002");
 		System.out.println("----- \n");
 		
+		System.out.println("-----");
 		System.out.println("Começo do Caso 003 \n");
 		caso003();
 		System.out.println("\nFim do Caso 003");
 		System.out.println("----- \n");
+		
+		System.out.println("\n\n ########## Fim do EstudoVolatile ##########");
 	}
 
 	/*

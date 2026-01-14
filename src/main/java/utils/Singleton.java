@@ -1,3 +1,4 @@
+package utils;
 /** 
  * 
  * Implementação do padrão Singleton com Double-Checked Locking em Java.

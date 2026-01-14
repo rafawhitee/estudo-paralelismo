@@ -3,10 +3,13 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class EstudoAtomic {
 
 	public static void main(String[] args) throws InterruptedException {
+		System.out.println("-----");
 		System.out.println("Começo do Caso 001 \n");
 		caso001();
 		System.out.println("\nFim do Caso 001");
 		System.out.println("----- \n");
+		
+		System.out.println("\n\n ########## Fim do EstudoAtomic ##########");
 	}
 
 	/*
