@@ -1,4 +1,9 @@
-
+/** 
+ * 
+ * Implementação do padrão Singleton com Double-Checked Locking em Java.
+ * Usada no EstudoVolatile (caso 003)
+ * 
+ **/
 public class Singleton {
 	
 	private static volatile Singleton instance;
